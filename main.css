@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: gray;
+  margin: 0;
+}
+#content {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-around;
+}
+
+.dives {
+  list-style-type: none;
+}
+
+li {
+  border: 1px solid black;
+}
